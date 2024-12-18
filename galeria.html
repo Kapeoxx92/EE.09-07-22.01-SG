@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl7.css">
+    <script src="script.js"></script>
+    <title>Galeria</title>
+</head>
+
+<body>
+    <header>
+        <h2>Galeria miejsc ciekawych</h2>
+    </header>
+    <main>
+        <img src="lanzarotte.jpg" id="mainImg" alt="galeria">
+    </main>
+    <div id="bottom">
+        <div id="left">
+            <h3>Przeglądaj zdjęcia</h3>
+            <img src="lanzarotte.jpg" alt="lanzarotte" onclick="image('lanzarotte.jpg')">
+            <img src="pekin.jpg" alt="pekin" onclick="image('pekin.jpg')">
+            <img src="serengeti.jpg" alt="serengeti" onclick="image('serengeti.jpg')">
+            <img src="wenecja.jpg" alt="wenecja" onclick="image('wenecja.jpg')">
+            <img src="tajlandia.jpg" alt="tajlandia" onclick="image('tajlandia.jpg')">
+        </div>
+        <div id="right">
+            <h3>Obrazy w naszej galerii</h3>
+            <table>
+            <tr>
+                <td>Europa</td>
+                <td>Azja</td>
+                <td>Afryka</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+            </table>
+            <p>Polub nas <img src="icon-off.png" alt="" id="heart" onclick="heart()"></p>
+            <a href="https://pixabay.com">Odryj więcej zdjęć</a>
+        </div>
+    </div>
+    <footer>
+        Autor: 00000000000
+    </footer>
+</body>
+
+</html>
